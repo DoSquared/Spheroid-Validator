@@ -19,16 +19,6 @@ Predictions are saved to `predictions.csv` with class label and confidence.
   - Provide explicitly via `--classes "invalid,valid"`.
 - Supports common image formats: `.jpg`, `.jpeg`, `.png`, `.bmp`, `.tif`, `.tiff`.
 
-## Repository Structure
-├─ infer.py # Inference script (runs on ./Test)
-├─ resnet50_final_model.pth # Trained weights (user-provided, example name)
-├─ Dataset/ # Optional: used to infer class names
-│ └─ train/
-│ ├─ invalid/
-│ └─ valid/
-├─ Test/ # Put test images here
-└─ README.md
-
 ## Setup and Installation
 
 1) Python 3.9–3.12 recommended.  
